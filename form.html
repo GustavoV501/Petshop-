@@ -1,0 +1,177 @@
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario de pre-adopcion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./css/style-4.css">
+
+</head>
+
+<body>
+    <main>
+        <form action="show_data.html" method="GET">
+            <fieldset>
+                <legend><strong>Datos Personales</strong></legend>
+
+                <label for="First_Name"><strong>Nombre</strong>
+                    <input type="text" placeholder="Escriba su Nombre" name="first_Name" required id="First Name">
+                </label>
+                <label for="last_name" style="margin-left: 10px;"><strong>Apellido</strong>
+                    <input type="text" placeholder="Escriba su Apellido" name="last_name" required id="last_name">
+                </label>
+                <br>
+                <br>
+                <label for="Age"><strong>¿cual es tu edad?</strong>
+                    <input type="number"
+                        placeholder="(NO ENTREGAMOS mascotas en adopción a menores de edad sin permiso de sus padres)"
+                        name="Age" required id="Age">
+                </label>
+                <br>
+                <br>
+                <label for="id_card"><strong>DNI/Cedula</strong>
+                    <input type="text" placeholder="Ingrese Numero" name="id_card" required id="id_card">
+                </label>
+                <br>
+                <br>
+                <label for="occupation"><strong>Ocupacion</strong>
+                    <input type="text" placeholder="Ingrese Ocupacion" name="occupation" required id="occupation">
+                </label>
+                <br>
+                <br>
+                <label for="Addres"><strong>Email</strong>
+                    <input type="email" placeholder="Ingrese Email" name="Addres" id="Addres">
+                </label>
+
+                <label for="telephone_number" style="margin-left: 30px;"><strong>Tel/Cel</strong>
+                    <input type="tel" placeholder="Ingrese Numero" name="telephone_number" id="telephone_number">
+                </label>
+                <br>
+                <br>
+                <label for="dwelling"><strong>Viven en casa o departamento</strong>
+                    <br>
+                    <label for="Casa">Casa
+                        <input type="radio" name="dwelling" id="dwelling">
+                    </label>
+                    <br>
+                    <label for="Apartamento">Apartamento
+                        <input type="radio" name="dwelling" id="dwelling">
+                    </label>
+                </label>
+                <br>
+                <br>
+                <label for="Allow"><strong>Si es departamento. ¿permiten mascotas en el edificio?</strong>
+                    <br>
+                    <label for="Allow-yes">Si
+                        <input type="radio" name="Allow-yes" id="Allow-yes">
+                    </label>
+                    <br>
+                    <label for="Allow-no">No
+                        <input type="radio" name="Allow-yes" id="Allow-no">
+                    </label>
+                </label>
+                <br>
+                <br>
+                <label for="spaciousness"><strong>¿Tienes espacio suficiente para una mascota?</strong>
+                    <br>
+                    <input type="radio" name="spaciousness" id="Mucho">
+                    <label for="Mucho">Mucho</label>
+                    <input type="radio" name="spaciousness" id="Poco">
+                    <label for="Poco">Poco</label>
+                    <input type="radio" name="spaciousness" id="Me acomodo">
+                    <label for="Me acomodo">Me acomodo</label>
+                </label>
+                <br>
+                <br>
+                <label for="accept"><strong>¿Todos están de acuerdo en tener una mascota?</strong>
+                    <br>
+                    <input type="radio" name="accept" id="accept">
+                    <label for="accept">Si</label>
+                    <input type="radio" name="accept" id="accept">
+                    <label for="accept">No</label>
+                </label>
+                <br>
+                <br>
+                <label for="allergic"><strong>¿Alguno es alérgico al pelo de mascotas?</strong>
+                    <br>
+                    <input type="radio" name="allergic" id="allergic">
+                    <label for="allergic">Si</label>
+                    <input type="radio" name="allergic" id="allergic">
+                    <label for="allergic">No</label>
+                </label>
+                <br>
+                <br>
+                <label for="another pet"><strong>¿Has tenido otras mascotas antes?</strong>
+                    <br>
+                    <input type="radio" name="another pet" id="another pet">
+                    <label for="another pet">Si</label>
+                    <input type="radio" name="another pet" id="another pet">
+                    <label for="another pet">No</label>
+                </label>
+                <br>
+                <br>
+                <label for="another pet currently"><strong>¿Tienes otras mascotas actualmente en la casa?</strong>
+                    <br>
+                    <input type="radio" name="another pet currently" id="another pet currently">
+                    <label for="another pet currently">Si</label>
+                    <input type="radio" name="another pet currently" id="another pet currently">
+                    <label for="another pet currently">No</label>
+                </label>
+                <br>
+                <br>
+                <label for="what happened"><strong>¿Qué pasó con ellas? (opcional)</strong>
+                    <br>
+                    <input type="text" placeholder="En caso de haber tenido una mascota anteriormente"
+                        name="what happened " id="what happened ">
+                </label>
+                <br>
+                <br>
+                <label for="who is responsible"><strong>¿Quién será el responsable directo de la mascota (salud, cuidados y
+                    alimentación)?</strong>
+                    <br>
+                    <input type="text" placeholder="En caso de tener mascotas en casa" name="who is responsible"
+                        id="who is responsible">
+                </label>
+                <br>
+                <br>
+                <label for="cares "><strong>¿Conoces los cuidados que requiere una mascota?</strong>
+                    <br>
+                    <input type="radio" name="cares " id="cares ">
+                    <label for="cares ">Si</label>
+                    <input type="radio" name="cares " id="cares ">
+                    <label for="cares ">No</label>
+                </label>
+                <br>
+                <br>
+                <label for="opinion"><strong>¿Qué opinas sobre la CASTRACION/ESTERILIZACIÓN?</strong>
+                    <br>
+                    <input type="text" placeholder="(La Agrupación le informará sobre campañas de esterilización)"
+                        name="opinion" id="opinion">
+                </label>
+                <br>
+                <br>
+                <label for="castrated"><strong>¿En caso de no haber sido ya castrado / esterilizada, se compromete a hacerlo en
+                    corto o mediano plazo dependiendo de la edad de su mascota?</strong>
+                    <br>
+                    <input type="text" placeholder="(La Agrupación le informará sobre campañas de esterilización)"
+                        name="castrated" id="castrated">
+                </label>
+                <br>
+                <br>
+                <label for="Date"><strong>Fecha de pre-adopcion:</strong>
+                    <input type="Date" name="Date" id="Date">
+                </label>
+
+
+                <li class="button" style="padding-top: 2%">
+                    <button type="submit"> Enviar </button>
+                </li>
+
+            </fieldset>
+
+        </form>
+</body>
+
+</html>

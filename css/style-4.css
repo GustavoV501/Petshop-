@@ -1,0 +1,41 @@
+ table {
+  border: 3px dotted #d6175386;
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 40%;
+    text-align: center;
+  }
+ 
+  legend{
+    border: 1px dotted rgb(3, 3, 3);
+    border-radius: 7px;
+    background: #d61753af;
+  }
+
+  fieldset{
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 10px solid #d6175386;
+    background: rgba(109, 106, 106, 0.151);
+    border-radius: 7px;
+  }
+  input{
+    padding-right: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+  button{
+    padding: 10px;
+    border: 4px solid #d6175386;
+    border-radius: 6px;
+  } 
