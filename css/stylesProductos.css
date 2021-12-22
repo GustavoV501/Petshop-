@@ -155,3 +155,28 @@ background-position: center center;
     transform: scale(1.2);
   }
   
+ /*MAPITA*/
+ .contenedorflexible0, h2, p {
+  text-align: center;
+ }
+ /*CONTACTENOS*/
+
+/* p:hover {
+  text-align: center;
+  font-size: 1.1em;
+}
+p:active {
+  font-size: 1.1em;
+}
+.contenedorflexible0,
+h2,
+p {
+  text-align: center;
+}
+a {
+  color: #c850c0;
+  text-decoration: none;
+}
+a:hover {
+  color: #2bb29c;
+} */
